@@ -1,12 +1,13 @@
 import { Button as FButton } from '@fabric-ds/react';
 import { Button as WButton } from '@warp-ds/react';
+import { classes } from './classes';
 
 const Button = () => {
   return (
     <>
     <h2>Buttons</h2>
     <div className="comparison">
-      <section className="shadow-4 ds-section flex flex-col">
+      <section className={classes.designSystemSection}>
         <h3>Fabric</h3>
         <FButton>Default</FButton>
         <FButton primary>Primary</FButton>
@@ -19,7 +20,7 @@ const Button = () => {
         <FButton link>Link</FButton>
         <FButton quiet>Quiet</FButton>
       </section>
-      <section className="shadow-4 ds-section flex flex-col">
+      <section className={classes.designSystemSection}>
         <h3>Warp</h3>
         <WButton>Default</WButton>
         <WButton primary>Primary</WButton>

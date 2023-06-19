@@ -13,7 +13,7 @@ const Sidebar = () => {
               <a href={`/button`}>Button</a>
             </li>
             <li>
-              <a href={`/todo`}>TODO</a>
+              <a href={`/pill`}>Pill</a>
             </li>
           </ul>
         </nav>
